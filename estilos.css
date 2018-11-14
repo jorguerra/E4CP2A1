@@ -1,0 +1,26 @@
+.navbar{
+  background: rgb(0,137,211);
+}
+.navbar-brand{
+  padding: 0;
+  height: auto;
+}
+a.navbar-brand img{
+  max-height: 80px
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,
+.navbar-nav>li>a {
+  height: 80px;
+  color: ghostwhite!important;
+  padding: 1.2em;
+  line-height: 20px;
+  padding-top: 30px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus,  .nav.navbar-nav li a:hover,.nav.navbar-nav li.active a:hover {
+  background: rgba(0, 0, 0, .4);
+}
+
+
+body{
+  background: white
+}

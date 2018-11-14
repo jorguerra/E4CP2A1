@@ -1,0 +1,21 @@
+{
+  "name": "E4CP2A1",
+  "authors": [
+    "Jorge Guerra <jorguerra@gmail.com>"
+  ],
+  "description": "Prueba 1 del bootcamp de FullStack",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3",
+    "jquery": "^3.3.1"
+  }
+}
