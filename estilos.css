@@ -1,5 +1,9 @@
 .navbar{
   background: rgb(0,137,211);
+  margin-bottom: 0;
+}
+.jumbotron{
+  background: #cfe3fd
 }
 .navbar-brand{
   padding: 0;
@@ -7,6 +11,9 @@
 }
 a.navbar-brand img{
   max-height: 80px
+}
+.no-padding{
+  padding: 0;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,
 .navbar-nav>li>a {

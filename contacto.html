@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./estilos.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"> 
+              <img src="https://media.licdn.com/dms/image/C560BAQE4Ktl60MqA8A/company-logo_200_200/0?e=2159024400&v=beta&t=nCvShk64o_1fKyne6ihShStrEaap4Y-hgoZx_T_2c6E" alt="Logo" class="img-responsive"> </a>
+          </a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="#">Nosotros</a>
+            </li>
+            <li class="active">
+              <a href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="jumbotron" style="padding: 15px 0;">
+    <div class="container">
+      <h3>Contáctanos ahora y pronto estaremos contigo</h1>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+    <div class="col-md-6 no-padding">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2706.027411156721!2d-70.539363466461!3d-33.38385801596181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1542233194040" width="600" height="450" class="img-responsive" frameborder="0" style="border:0; width:100%;  min-height: 340px" allowfullscreen></iframe>
+    </div>
+    
+    <div class="col-md-6">
+      <form action="javascript:void(0)" method="POST" role="form" class="">
+        <legend>Contacto</legend>
+        <div class="form-group" id="grupo-nombre">
+          <div class="input-group">
+            <span class="input-group-addon">
+            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+            </span>
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre completo" required>
+          </div>
+        </div>
+        <div class="form-group" id="grupo-email">
+          <div class="input-group">
+            <span class="input-group-addon">
+            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+            </span>
+            <input type="text" class="form-control" id="email" placeholder="Email" required>
+          </div>
+        </div>
+        <div class="form-group" id="grupo-fono">
+          <div class="input-group">
+            <span class="input-group-addon">
+            <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+            </span>
+            <input type="text" class="form-control" id="fono" placeholder="Teléfono" required>
+          </div>
+        </div>
+        <div class="form-group">
+            <textarea name="Mensaje" placeholder="Su mensaje aquí" id="textareaMensaje" class="form-control" rows="4" required="required"></textarea>
+        </div>
+        <div class="form-group text-right"><button type="submit" class="btn btn-primary">Enviar</button></div>
+      </form>
+    </div>
+  </div>
+    <p style="text-align:center"><img src="https://imagenes-cdn.diariodeibiza.es/multimedia/videos/2018/02/15/137717/preview2colH_g.jpg?t=1518684459000" style="max-height:240px;"></p>
+  </div>
+  
+</body>
+</html>
