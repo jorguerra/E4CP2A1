@@ -27,7 +27,13 @@ a.navbar-brand img{
   background: rgba(0, 0, 0, .4);
 }
 
-
 body{
   background: white
+}
+
+h1,h2{
+  border-bottom: 1px solid lightgrey
+}
+.ejecutivo li{
+  display: inline
 }
